@@ -56,3 +56,18 @@ puts fancycalculator.subtract(4,7)
 puts fancycalculator.multiply(7,2)
 puts fancycalculator.divide(90,10)
 puts fancycalculator.square_root(25)
+
+
+simplecalculator = SimpleCalculator.new
+puts fancycalculator.add(8,2)
+puts fancycalculator.subtract(4,7)
+puts fancycalculator.multiply(7,2)
+puts fancycalculator.divide(90,10)
+
+whizbangcalculator = WhizBangCalculator.new
+puts whizbangcalculator.add(8,2)
+puts whizbangcalculator.subtract(4,7)
+puts whizbangcalculator.multiply(7,2)
+puts whizbangcalculator.divide(90,10)
+puts whizbangcalculator.hypotenuse(4,7)
+puts whizbangcalculator.exponent(4,7)
